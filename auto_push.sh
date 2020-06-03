@@ -1,3 +1,4 @@
+cd /root/SexDay
 python sex.py
 
 git add *
