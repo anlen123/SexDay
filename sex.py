@@ -10,7 +10,7 @@ try:
     with open("README.md", "a+")as f:
 	f.write("# SexDay\n")
 
-    for _ in range(20):
+    for _ in range(100):
         sql = "select download_url from urls where id ={};".format(random.randint(1, 240000))
         cur.execute(sql)
         res = cur.fetchall()
