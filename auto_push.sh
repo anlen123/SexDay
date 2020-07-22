@@ -1,5 +1,5 @@
 cd /root/SexDay
-python sex.py
+python3 sex.py
 
 git add *
 git add -A 
