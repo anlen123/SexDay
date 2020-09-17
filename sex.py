@@ -1,4 +1,3 @@
-
 f = open("config")
 config = f.read().split("\n")[:-1]
 host = config[0].split(" ")[1]
