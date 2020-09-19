@@ -1,10 +1,11 @@
 f = open("config")
 config = f.read().split("\n")[:-1]
-host = config[0].split(" ")[1]
-port = config[1].split(" ")[1]
-user = config[2].split(" ")[1]
-passwd = config[3].split(" ")[1]
-db = config[4].split(" ")[1]
+print(config)
+host = config[0]
+port = config[1]
+user = config[2]
+passwd = config[3]
+db = config[4]
 print(host,port,user,passwd,db)
 import pymysql
 from pymysql.cursors import DictCursor
