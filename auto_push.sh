@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/bash
 cd /root/SexDay
 python3 sex.py
 
