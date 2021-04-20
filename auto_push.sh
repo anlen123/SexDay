@@ -6,4 +6,3 @@ git add .
 git commit -m "$date"
 git status
 git push  -f 
-touch flag
